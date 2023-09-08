@@ -1,0 +1,75 @@
+/*Estrutura base igual a, propriedade:valor;*/
+h1 {
+    color: red;
+    /*alterar a cor da fonte*/
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    /*texto centralizado*/
+    font-size: 50px;
+    /*tamanho da fonte*/
+}
+
+/* CLASSES E IDS*/
+
+.p-texto {
+    color: blueviolet;
+}
+
+#titulo-app {
+    color: purple;
+    font-size: 40px;
+}
+
+/* ESPECIFIDADE */
+
+div p {
+    color: red;
+}
+
+.p-dentro-da-div {
+    color: blue;
+}
+
+#p-super-especifico {
+    color: green;
+}
+
+/* CORES */
+
+.nome {
+    color: orange;
+    /*valor por nome da cor*/
+}
+
+.hexa {
+    color: #6a40c4;
+    /*valor por hexixadecimal*/
+}
+
+.rgba {
+    color: rgba(17, 197, 214, 1);
+    /*valor por rgba
+    Tem a caracteristica de dar transparencia a fonte alterando o ultimo digito.*/
+
+}
+
+/* Backgrounds*/
+
+.div-background {
+    background-image: url(img/Cabecalho2.jpeg);
+    height: 300px;
+    ;
+}
+
+.titulo-background {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
