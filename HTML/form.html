@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulários</title>
+</head>
+
+<body>
+    <!--"form action="" " conexão com Back-End-->
+    <!--method="GET" receber dados do Banco de Dados, method"POST" insere dados no Banco de Dados-->
+    <form action="envio.js" method="GET">
+        <input type="text" name="nome"><!--caixa de entrada de entrada de dados-->
+        <br>
+        <br>
+        <input type="submit" value="Enviar"><!--botão de enviar-->
+        <br>
+        <br>
+        <input type="checkbox" name="temcarro"> Eu tenho carro <!--criar checklist-->
+        <br>
+        <br>
+        Data de Nascimento <input type="date" name="aniverssario"><!--inserir data-->
+        <br>
+        <br>
+        <!--Marcador de escolha única-->
+        <input type="radio" name="sexo" value="masculino">Masculino
+        <input type="radio" name="sexo" value="feminino">Feminino
+        <input type="radio" name="sexo" value="outros">Outros
+        <br>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><!--Inserir comentarios-->
+        <br>
+        <br>
+        <input type="password" name="senha" id=""><!--Inserir senha-->
+
+
+    </form>
+
+</body>
+
+</html>
