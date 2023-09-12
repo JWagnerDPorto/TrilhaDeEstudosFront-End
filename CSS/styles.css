@@ -64,7 +64,9 @@ div p {
 
 .div-background {
     background-image: url(img/Cabecalho2.jpeg);
+    /*adicionar imagens ao background*/
     height: 300px;
+    /*alterar altura da imagem*/
     ;
 }
 
@@ -72,4 +74,45 @@ div p {
     text-align: center;
     background-color: #000;
     color: #fff;
+}
+
+/* Fontes */
+
+.family {
+    color: #000;
+    font-size: 40px;
+
+    /*fontes diferentes*/
+}
+
+.family.serif {
+    color: green;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.variant {
+    font-variant: small-caps;
 }
