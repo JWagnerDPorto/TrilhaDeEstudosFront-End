@@ -116,3 +116,193 @@ div p {
 .variant {
     font-variant: small-caps;
 }
+
+/* BOX MODEL */
+
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* Geral */
+    /*padding: 20px;*/
+
+    /* Especifico */
+    /*
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    */
+    /* Especifico Agrupado */
+    /*padding: 30px 20px 5px 10px;
+
+    /* Especifico Agrupado 3 medidas - top, right/left, bottom */
+    /*padding: 30px 20px 5px;*/
+
+    /* Especifico Agrupado 2 medidas - top/bottom, right/left */
+    padding: 30px 20px;
+    border: 3px solid #000;
+    border-width: 20px 15px 20px 15px;
+    /*border-left: 5px dotted blue;
+    border-right-style: double;*/
+    border-radius: 15px;
+    margin: 100px;
+    /*margin: 20px 15px 20px 15px;*/
+    /*display: none;*/
+    /*esconder elementos da tela*/
+    display: inline-block;
+    /*deixar os blocos lado a lados*/
+
+}
+
+.paragrafo-box {
+    color: #000;
+    margin: 0;
+}
+
+/* POSITIONS */
+
+/* Static - flow no html, não é operado por top, right, botton e left */
+/* Relative - flow no html, ela é operado por top, right, botton e left  */
+/* Fixed - posiciona em qualquer lugar da tela e é posicionada em relação ao html*/
+/* Absolute - posiciona em qualquer lugar, e ela respeita o elemento antecessor*/
+/* Sticky - está no flow do html, porem ao passar o sroll ela funciona como fixed */
+
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.static {
+    /*div não se movimenta*/
+    position: static;
+
+}
+
+.relative {
+    /*div se movimenta de forma independente em relação a anterior */
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+
+}
+
+.absolute {
+    /*div se fixa ao elemeto pai neste caso o body*/
+    position: absolute;
+    background-color: purple;
+    top: 0;
+    left: 0;
+}
+
+.mini-div {
+    /*div se fixa ao elemeto pai neste caso outra div podendo se manipular sua posisão dentro da div*/
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 100px;
+}
+
+.fixed {
+    position: fixed;
+    height: 200px;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}
+
+/* FLOAT */
+
+.container {
+    padding: 50px;
+}
+
+.div-float {
+    overflow: auto;
+}
+
+.img-float {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+    color: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+div p {
+    color: black;
+}
+
+.p-dentro-da-div {
+    color: black;
+}
+
+/* UNITS */
+
+.pixel-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel-2 {
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}
+
+.pai-porcentagem {
+    height: 500px;
+    width: 500px;
+    background-color: #000;
+}
+
+.porcentagem-1 {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.porcentagem-2 {
+    width: 50%;
+    height: 50%;
+    background-color: #000;
+}
+
+.pai-em {
+    font-size: 50px;
+}
+
+.em-1 {
+    width: 2em;
+    height: 2em;
+    background-color: purple;
+}
+
+.rem-1 {
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+}
