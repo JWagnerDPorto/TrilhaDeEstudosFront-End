@@ -1,0 +1,90 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	/*fonte de todos os elementos dentro da tag html*/
+	background-color: #ddd;
+	/*cor de fundo da página*/
+}
+
+.container {
+	max-width: 1200px;
+	/*tamanho máximo do elemento*/
+	position: relative;
+	/*centralizar o elemento em relação a tela*/
+	margin-left: auto;
+	/*centralizar o elemento em relação a tela*/
+	margin-right: auto;
+	/*centralizar o elemento em relação a tela*/
+	padding: 20px 50px;
+	/*margem do texto com a borda*/
+	margin: 50px;
+	/*adiciona uma margem no topo e em baixo do elemento*/
+	background-color: #fff;
+	/*cor do elemeto*/
+}
+
+.destaque {
+	font-weight: bold;
+	/*texto em negrito*/
+}
+
+/* cabecalho */
+
+.cabecalho {
+	text-align: center;
+	/*centralizar o texto*/
+}
+
+.titulo-principal {
+	font-size: 40px;
+	/*alterar o tamanho da fonte*/
+}
+
+.paragrafo-principal {
+	font-style: italic;
+	/*texto em italico*/
+}
+
+/* corpo do site */
+
+.img-destaque {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*biografia container */
+
+.biografia-container {
+	padding: 25px 0;
+	margin: 25px 0;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+}
+
+/* citação */
+
+.frase-container {
+	background-color: #ddd;
+	padding: 30px;
+}
+
+.frase-container blockquote {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.frase-container p {
+	font-style: italic;
+}
+
+/* curiosidades */
+
+.curiosidades-container {
+	padding: 25px 0;
+	margin: 25px 0;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+}
+
+.curiosidades-container li {
+	height: 30px;
+}
