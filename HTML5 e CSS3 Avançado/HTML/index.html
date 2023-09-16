@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos do HTML5</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>Recursos do HTML5</h1>
+        <div>
+            <!-- adicionar videos ao html-->
+            <video width="320" height="240" controls>
+                <source src="video/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <!-- adicionar audios ao html -->
+            <audio controls>
+                <source src="audio/audio.m4a" tipe="audio/m4a">
+            </audio>
+        </div>
+        <div>
+            <!-- adicionar imagem com comentario a baixo -->
+            <figure>
+                <img src="img/imagem.jpg" alt="foto Rhavi" width="320">
+                <figcaption>Foto do Rhavi....</figcaption>
+            </figure>
+        </div>
+        <div>
+            <h3 contenteditable="">Preencha o Formulário</h3>
+            <form action="">
+                <label for="">Email:</label>
+                <input type="email" name="email" required placeholder="Digite o email" autofocus>
+                <br>
+                <label for="">Nome:</label>
+                <input type="text" name="nome" required placeholder="Digite o nome completo">
+                <input type="submit" name="Enviar">
+                <!-- required: preenchimento automatico -->
+                <!-- placeholder: mensagem na caixa de texto -->
+                <!-- autofocus:cursor na caixa de texto -->
+            </form>
+        </div>
+        <div>
+            <p contenteditable="true">Este é um paragrafo que pode ser editado.</p>
+            <!-- Deixa o texto da pagina editavel -->
+        </div>
+    </article>
+    <aside>
+        <p>Confira nossos produtos, <a href="#">Clicando aqui!</a></p>
+    </aside>
+    <details open="open"> <!-- aparece já aberto na pagina -->
+        <summary>Cachorro</summary>
+        <p>É um mamífero de 4 patas doméstico</p>
+        <!-- para criar uma acordeom (uma palavra clicavel que abre um texto abaixo com mais informações-->
+    </details>
+    <details> <!-- aparece fechado na pagina -->
+        <summary>Gato</summary>
+        <p>É um mamífero de 4 patas doméstico</p>
+        <!-- para criar uma acordeom (uma palavra clicavel que abre um texto abaixo com mais informações-->
+    </details>
+    <form action="">
+        <p>Animais</p>
+        <input list="animais" name="animal">
+        <datalist id="animais">
+            <option value="Cachorro"></option>
+            <option value="Gato"></option>
+            <option value="Cavalo"></option>
+            <option value="Elefante"></option>
+        </datalist>
+        <p>Barra de loading:</p>
+        <progress value="63" max="100"></progress>
+    </form>
+    <footer>Rodapé</footer>
+</body>
+
+</html>
