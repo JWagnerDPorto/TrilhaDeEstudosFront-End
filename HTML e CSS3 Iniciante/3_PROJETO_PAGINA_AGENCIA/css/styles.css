@@ -1,0 +1,78 @@
+/* general*/
+html {
+	font-family: Helvetica, sans-serif;
+}
+
+/* header */
+.banner {
+	width: 100%;
+	height: 600px;
+	background-image: url('../img/capa2.jpg');
+	background-position: center;
+	position: relative;
+}
+
+.box-container {
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+	bottom: 250px;
+}
+
+.box-background {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .8;
+	position: relative;
+}
+
+.box-banner-title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	color: #FFF;
+	padding-top: 64px;
+}
+
+.box-banner-title h1 {
+	font-size: 32px;
+	margin-bottom: 25px;
+}
+
+.box-banner-title p {
+	font-size: 20px;
+}
+
+.company-info-container {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 175px;
+}
+
+.company-info-background {
+	width: 100%;
+	height: 100%;
+	background-color: #DDD;
+	opacity: .9;
+}
+
+.company-info-titlebox {
+	position: absolute;
+	padding-left: 10%;
+	top: 40px;
+	width: 500px;
+}
+
+.company-info-titlebox h2, .company-info-titlebox p {
+	color: #222;
+}
+
+.company-info-titlebox h2 {
+	margin-bottom: 30px;
+	font-size: 24px;
+}
