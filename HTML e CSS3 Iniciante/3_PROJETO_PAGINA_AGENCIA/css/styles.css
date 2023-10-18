@@ -152,3 +152,44 @@ html {
 #design-box {
    background-color: #73BFB8;
 }
+
+/* Sobre a empresa */
+
+.footer-container {
+	background-image: url(../img/rodape.jpg);
+	background-position: center;
+}
+
+.about-container {
+	max-width: 1200px;
+	padding: 30px 10%;
+	position: relative;
+	clear: both;
+}
+
+.about-card {
+	float: left;
+	width: 30%;
+	padding: 30px;
+	background-color: #FFF;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.middle-card {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.about-card i {
+	font-size: 50px;
+	color: #aaa;
+}
+
+.about-card p {
+	margin-top: 50px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #888;
+	text-align: left;
+}
