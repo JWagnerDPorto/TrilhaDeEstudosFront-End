@@ -194,4 +194,97 @@ html {
 	text-align: left;
 }
 
-/*  */
+/* footer */
+
+footer {
+	clear: both;
+	max-width: 1200px;
+	height: 500px;
+	padding: 30px 10%;
+	position: relative;
+}
+
+.form-container {
+	width: 65%;
+	height: 375px;
+	position: relative;
+	display: block;
+}
+
+.form-background {
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	opacity: .5;
+}
+
+.form-container form {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 300px;
+}
+
+.form-container input, .form-container textarea {
+	width: 400px;
+	display: block;
+	border: none;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #AAA;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.form-container textarea {
+	max-height: 150px;
+	max-width: 400px;
+}
+
+.form-container input::placeholder, input::placeholder {
+	font-size: 14px;
+}
+
+.form-container .submit {
+	background-color: #222;
+	color: #FFF;
+	border: 1px solid transparent;
+	width: 100px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.form-container .submit:hover {
+	background-color: #FFF;
+	color: #222;
+	border: 1px solid #222;
+}
+
+.copyright {
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#name {
+
+}
+
+#email {
+
+}
+
+#message {
+
+}
+
