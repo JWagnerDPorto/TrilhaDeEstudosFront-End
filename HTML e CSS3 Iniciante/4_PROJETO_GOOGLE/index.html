@@ -5,10 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Fontes -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <h1>Teste</h1>
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Barra de navegação -->
+        <nav id="navbar">
+            <ul class="nav-list" id="social-bar">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imagens</a></li>
+                <li>
+                    <a href="#"><span class="lnr lnr-list"></span></a>
+                </li>
+                <li><a href="#">Fazer login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Conteúdo principal  -->
+    <main id="body">
+        <img src="img/google_logo.png" id="google-logo" alt="Logo do google">
+        <form action="">
+            <div id="input-box">
+                <input type="text" id="search-input" name="search">
+                <span class="lnr lnr-magnifier" id="search-icon"></span>
+                <span class="lnr lnr-keyboard" id="keyboard-icon"></span>
+                <span class="lnr lnr-mic" id="mic-icon"></span>
+            </div>
+            <div>
+                <input type="submit" name="btn-search" value="Pesquisa Google">
+                <input type="submit" name="btn-luck" value="Estou com sorte">
+            </div>
+        </form>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <ul id="left-bar" class="nav-list">
+            <li><a href="#">Publicidade</a></li>
+            <li><a href="#">Negócios</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Como funciona a Pesquisa</a></li>
+        </ul>
+        <ul id="right-bar" class="nav-list">
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Configurações</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
