@@ -22,11 +22,11 @@ function contador(i) {
 }
 
 let meuContador1 = contador(1);
-meuContador();
-meuContador();
-meuContador();
+meuContador1();
+meuContador1();
+meuContador1();
 
 let meuContador2 = contador(4);
-meuContador();
-meuContador();
-meuContador();
+meuContador2();
+meuContador2();
+meuContador2();
